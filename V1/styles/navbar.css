@@ -1,0 +1,22 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #343a40;
+    padding: 6px;
+}
+
+.navbar-item:hover {
+    background-color: #6c757d;
+}
+
+.navbar-item-big {
+    flex: 3;
+}
+
+.navbar-item-small {
+    flex: 1;
+}
