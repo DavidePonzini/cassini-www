@@ -3,8 +3,28 @@ function select(elem) {
 
     let img = $(elem)
 
-	if(img.hasClass('selected'))
-		img.removeClass('selected')
-	else
-		img.addClass('selected')
+    let counter = $('#counter')[0]
+    let count = +counter.innerHTML
+
+    if (img.hasClass('selected')) {
+        img.removeClass('selected')
+        count--
+    }
+    else {
+        img.addClass('selected')
+        count++
+    }
+
+    counter.innerHTML = count
+
+    setCounterVisibility()
+}
+
+function setCounterVisibility() {
+    let counter_tab = $('#counter-tab')
+
+    if (count > 0)
+        counter_tab.show()
+    else
+        counter_tab.hide()
 }

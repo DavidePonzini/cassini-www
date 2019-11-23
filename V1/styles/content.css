@@ -91,3 +91,8 @@
 	transition: all .5s linear;
 }
 
+.content-small {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
