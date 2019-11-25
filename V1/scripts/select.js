@@ -1,10 +1,12 @@
+let count = 0;
+
 function select(elem) {
     console.log('selecting image...')
 
     let img = $(elem)
 
     let counter = $('#counter')[0]
-    let count = +counter.innerHTML
+    count = +counter.innerHTML
 
     if (img.hasClass('selected')) {
         img.removeClass('selected')
