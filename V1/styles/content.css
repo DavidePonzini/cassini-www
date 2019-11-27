@@ -1,18 +1,12 @@
 .content {
-    margin-top: 63px;
-    margin-left: 75px;
     padding: 20px;
 }
 
 .content-tab {
-    background-color: rgba(248, 249, 250, .7);
-    border-radius: 12px;
+    background-color: blue;
     padding: 12px;
     margin: 12px 0;
-}
-
-.content-tab h1 {
-    text-align: center;
+    max-height: 300px;
 }
 
 .content-img-text {
@@ -20,13 +14,8 @@
 }
 
 .content-img img, .content-img-text img {
-    cursor: zoom-in;
     margin-top: 16px;
     height: auto;
-}
-
-.content-img img.img-big, .content-img-text img.img-big {
-    cursor: zoom-out!important;
 }
 
 .content-img-text img {
@@ -51,8 +40,6 @@
 }
 
 .disclaimer {
-    font-style: italic;
-    text-align: right;
     font-size: 12px;
 }
 
@@ -67,11 +54,11 @@
 }
 
 .content-gallery-item {
-    background-color: rgba(248, 249, 250, .7);
+    background-color: violet;
     border-radius: 12px;
     padding: 12px;
     margin: 12px 0;
-    display: inline-block;
+    display: block;
 	cursor: pointer;
 }
 

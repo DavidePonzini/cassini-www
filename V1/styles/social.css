@@ -1,9 +1,13 @@
 .icon-bar {
-    position: fixed;
+    position: relative;
     top: 50%;
+    width: 20px;
+    margin-left: 300px;
+/*  
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+*/
 }
 
 .icon-bar a {
@@ -13,10 +17,6 @@
     transition: all 0.3s ease;
     color: white;
     font-size: 20px;
-}
-
-.icon-bar a:hover {
-    background-color: #000;
 }
 
 .facebook {
